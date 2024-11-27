@@ -125,19 +125,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <Section background="gray">
-        <h2 className="heading-2 text-center mb-16">Our SEO Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <Card key={index} variant="hover">
-              <div className="w-16 h-16 bg-blue-900 text-white rounded-lg flex items-center justify-center mb-6">
-                {service.icon}
+      {/* SEO Services Section */}
+      <Section background="white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">
+            Our SEO Services
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
+              <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
-            </Card>
-          ))}
+              <h3 className="text-xl font-bold mb-4">Search Engine Optimization</h3>
+              <p className="text-gray-600">Boost your website's visibility with our comprehensive SEO strategies tailored to your business needs.</p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
+              <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4">Local SEO & GMB</h3>
+              <p className="text-gray-600">Dominate local search results with optimized Google My Business profiles and local SEO strategies.</p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
+              <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4">Content Creation</h3>
+              <p className="text-gray-600">Engaging blogs and service pages that convert visitors into customers while boosting your SEO rankings.</p>
+            </div>
+          </div>
         </div>
       </Section>
 
@@ -170,44 +194,66 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* Trust Indicators Section */}
-      <Section background="gray">
-        <h2 className="heading-2 text-center mb-16">Trusted By Leading Brands</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-70">
-          <div className="relative w-32 h-12">
-            <Image
-              src="/vercel.svg"
-              alt="Client Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="relative w-32 h-12">
-            <Image
-              src="/vercel.svg"
-              alt="Client Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="relative w-32 h-12">
-            <Image
-              src="/vercel.svg"
-              alt="Client Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="relative w-32 h-12">
-            <Image
-              src="/vercel.svg"
-              alt="Client Logo"
-              fill
-              className="object-contain"
-            />
+      {/* Trusted By Leading Brands Section */}
+      <div className="bg-[#0A1128] py-20 overflow-hidden">
+        <div className="container mx-auto mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-white">
+            Trusted By Leading Brands
+          </h2>
+        </div>
+        <div className="relative">
+          <div className="flex space-x-32 animate-scroll">
+            {/* First set of logos */}
+            <div className="flex space-x-32 items-center">
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#FF0000]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </div>
+              </div>
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#21759B]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0"/>
+                  </svg>
+                </div>
+              </div>
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#96BF48]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21.9364 6.67619C21.8807 6.55649 21.7858 6.45961 21.6675 6.40163C21.5492 6.34365 21.4148 6.32825 21.2867 6.35777L18.7587 6.92037L16.8627 4.35197C16.8004 4.26784 16.7163 4.19995 16.6182 4.15478C16.5201 4.10961 16.4115 4.08867 16.3027 4.09397H7.69666C7.58791 4.08867 7.47929 4.10961 7.38119 4.15478C7.28309 4.19995 7.19902 4.26784 7.13666 4.35197L5.24066 6.92037L2.71266 6.35777C2.58437 6.32854 2.45006 6.34414 2.33181 6.40219C2.21356 6.46024 2.11861 6.55707 2.06286 6.67669C2.00711 6.79631 1.99438 6.93137 2.02666 7.05997L5.78666 19.8C5.82375 19.9468 5.90775 20.0762 6.02595 20.168C6.14415 20.2597 6.28965 20.3083 6.43866 20.306H17.5607C17.7097 20.3083 17.8552 20.2597 17.9734 20.168C18.0916 20.0762 18.1756 19.9468 18.2127 19.8L21.9727 7.05997C22.0053 6.93124 21.9926 6.79601 21.9364 6.67619ZM8.37066 5.69397H15.6287L16.9447 7.49397L7.05466 7.49997L8.37066 5.69397ZM16.9447 18.706H7.05466L3.93066 7.49997L20.0687 7.49397L16.9447 18.706Z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            {/* Duplicate set for seamless scrolling */}
+            <div className="flex space-x-32 items-center">
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#FF0000]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </div>
+              </div>
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#21759B]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0"/>
+                  </svg>
+                </div>
+              </div>
+              <div className="w-40 h-40 flex items-center justify-center">
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <svg className="w-full h-full text-[#96BF48]" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21.9364 6.67619C21.8807 6.55649 21.7858 6.45961 21.6675 6.40163C21.5492 6.34365 21.4148 6.32825 21.2867 6.35777L18.7587 6.92037L16.8627 4.35197C16.8004 4.26784 16.7163 4.19995 16.6182 4.15478C16.5201 4.10961 16.4115 4.08867 16.3027 4.09397H7.69666C7.58791 4.08867 7.47929 4.10961 7.38119 4.15478C7.28309 4.19995 7.19902 4.26784 7.13666 4.35197L5.24066 6.92037L2.71266 6.35777C2.58437 6.32854 2.45006 6.34414 2.33181 6.40219C2.21356 6.46024 2.11861 6.55707 2.06286 6.67669C2.00711 6.79631 1.99438 6.93137 2.02666 7.05997L5.78666 19.8C5.82375 19.9468 5.90775 20.0762 6.02595 20.168C6.14415 20.2597 6.28965 20.3083 6.43866 20.306H17.5607C17.7097 20.3083 17.8552 20.2597 17.9734 20.168C18.0916 20.0762 18.1756 19.9468 18.2127 19.8L21.9727 7.05997C22.0053 6.93124 21.9926 6.79601 21.9364 6.67619ZM8.37066 5.69397H15.6287L16.9447 7.49397L7.05466 7.49997L8.37066 5.69397ZM16.9447 18.706H7.05466L3.93066 7.49997L20.0687 7.49397L16.9447 18.706Z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </Section>
+      </div>
 
       {/* Pricing Section */}
       <Section background="white">
