@@ -1,38 +1,6 @@
-import Image from 'next/image'
 import Button from '@/components/Button'
-import Card from '@/components/Card'
 import Section from '@/components/Section'
 import { CheckIcon } from '@heroicons/react/20/solid'
-
-const services = [
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-      </svg>
-    ),
-    title: "Search Engine Optimization",
-    description: "Boost your website's visibility with our comprehensive SEO strategies tailored to your business needs.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-      </svg>
-    ),
-    title: "Local SEO & GMB",
-    description: "Dominate local search results with optimized Google My Business profiles and local SEO strategies.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-      </svg>
-    ),
-    title: "Content Creation",
-    description: "Engaging blogs and service pages that convert visitors into customers while boosting your SEO rankings.",
-  },
-]
 
 const features = [
   "Website Optimization",
@@ -139,7 +107,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-4">Search Engine Optimization</h3>
-              <p className="text-gray-600">Boost your website's visibility with our comprehensive SEO strategies tailored to your business needs.</p>
+              <p className="text-gray-600">Boost your website&apos;s visibility with our comprehensive SEO strategies tailored to your business needs.</p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
