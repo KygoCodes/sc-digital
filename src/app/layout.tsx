@@ -53,7 +53,7 @@ export default function RootLayout({
                   <li>123 Digital Avenue</li>
                   <li>Suite 500</li>
                   <li>Atlanta, GA 30301</li>
-                  <li>Phone: (404) 123-4567</li>
+                  <li>Phone: (404) 444-4567</li>
                   <li>Email: hello@southernconnection.com</li>
                 </ul>
               </div>
