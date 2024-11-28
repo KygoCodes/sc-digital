@@ -99,25 +99,25 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">
             Our SEO Services
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4">Search Engine Optimization</h3>
-              <p className="text-gray-600">Boost your website&apos;s visibility with our comprehensive SEO strategies tailored to your business needs.</p>
+              <h3 className="text-xl font-bold mb-4">Web Development</h3>
+              <p className="text-gray-600"> Elevate your online presence with responsive, user-friendly websites that captivate and convert.</p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg> 
               </div>
               <h3 className="text-xl font-bold mb-4">Local SEO & GMB</h3>
-              <p className="text-gray-600">Dominate local search results with optimized Google My Business profiles and local SEO strategies.</p>
+              <p className="text-gray-600">Dominate local search results with optimized Google My Business profiles and local SEO strategies tailored to your business needs.</p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
@@ -128,6 +128,16 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4">Content Creation</h3>
               <p className="text-gray-600">Engaging blogs and service pages that convert visitors into customers while boosting your SEO rankings.</p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all">
+              <div className="w-16 h-16 bg-blue-900 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4">Analytics and Reporting</h3>
+              <p className="text-gray-600">Track and analyze data to showcase growth and ensure transparency, using clear, detailed reporting to drive continuous improvement.</p>
             </div>
           </div>
         </div>
