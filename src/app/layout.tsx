@@ -42,7 +42,7 @@ export default function RootLayout({
                 <h4 className="text-lg font-semibold mb-4">Services</h4>
                 <ul className="space-y-2">
                   <li><a href="/services/seo" className="text-gray-400 hover:text-white">Search Engine Optimization</a></li>
-                  <li><a href="/services/local-seo" className="text-gray-400 hover:text-white">Local SEO</a></li>
+                  <li><a href="/services/web-development" className="text-gray-400 hover:text-white">Web Development</a></li>
                   <li><a href="/services/content" className="text-gray-400 hover:text-white">Content Creation</a></li>
                   <li><a href="/services/analytics" className="text-gray-400 hover:text-white">Analytics & Reporting</a></li>
                 </ul>
