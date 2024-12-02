@@ -29,36 +29,36 @@ export default function BlogPost() {
 
       <Section>
         <div className="container max-w-4xl">
-          <div className="prose prose-lg">
+          <div className="space-y-6 text-gray-700">
             <p className="lead text-xl text-gray-600 mb-8">
               As search engines continue to evolve, staying ahead in the SEO game requires a deep understanding of both technical optimization and user experience. In this comprehensive guide, we'll explore the most effective SEO strategies for 2024.
             </p>
 
-            <h2>1. Core Web Vitals Optimization</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">1. Core Web Vitals Optimization</h2>
             <p>
               Google's Core Web Vitals have become increasingly important for SEO success. Focus on these key metrics:
             </p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-2">
               <li>Largest Contentful Paint (LCP): Aim for under 2.5 seconds</li>
               <li>First Input Delay (FID): Keep it below 100ms</li>
               <li>Cumulative Layout Shift (CLS): Maintain under 0.1</li>
             </ul>
 
-            <h2>2. AI-Driven Content Optimization</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">2. AI-Driven Content Optimization</h2>
             <p>
               With the rise of AI in search algorithms, content optimization has evolved:
             </p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-2">
               <li>Focus on comprehensive topic coverage</li>
               <li>Implement semantic SEO principles</li>
               <li>Use natural language processing tools</li>
             </ul>
 
-            <h2>3. Mobile-First Indexing</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">3. Mobile-First Indexing</h2>
             <p>
               Mobile optimization is no longer optional. Ensure your website:
             </p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-2">
               <li>Has responsive design</li>
               <li>Loads quickly on mobile devices</li>
               <li>Features mobile-friendly navigation</li>
