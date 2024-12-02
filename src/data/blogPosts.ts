@@ -22,10 +22,10 @@ export interface BlogPost {
       id: "2",
       title: "The Impact of AI on Digital Marketing in 2024",
       excerpt: "Explore how artificial intelligence is revolutionizing digital marketing strategies and what it means for your business.",
-      date: "March 12, 2024",
+      date: "January 2, 2024",
       category: "Digital Marketing",
-      imageUrl: "/images/ai-marketing.jpg",
-      slug: "ai-impact-digital-marketing"
+      imageUrl: "/images/blog/ai-marketing-hero.jpg",
+      slug: "ai-digital-marketing-2024"
     },
     {
       id: "3",
